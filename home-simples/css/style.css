@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: #28293E;
+  color: #FCFCFF;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 40px;
+}
+header .navigation ul {
+  display: flex;
+  align-items: center;
+}
+header .navigation ul li a {
+  margin-left: 43px;
+  display: inline-block;
+  padding: 10px;
+  color: #FCFCFF;
+  transition: 0.3s;
+}
+header .navigation ul li a:hover {
+  color: #FF3366;
+}
+header .button {
+  padding: 10px;
+}
+header .button a {
+  display: inline-block;
+  padding: 17px 40px;
+  background: #FF3366;
+  border-radius: 7px;
+  color: #FCFCFF;
+  border: 1px solid #FF3366;
+  transition: 0.3s;
+}
+header .button a:hover {
+  background: #FCFCFF;
+  color: #FF3366;
+}
+
+main .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .content-text h1 {
+  font-size: 4rem;
+}
+main .content-text p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #D5D5D6;
+  max-width: 445px;
+  margin: 24px 0px 40px 0px;
+}
+main .content .form {
+  display: flex;
+  align-items: center;
+}
+main .content .form .email {
+  position: relative;
+}
+main .content .form .email img {
+  position: absolute;
+  bottom: 17px;
+  left: 16px;
+  width: 1.5rem;
+}
+main .content .form .email input {
+  background: transparent;
+  border: 1px solid #FCFCFF;
+  border-radius: 7px;
+  padding: 17px 0px 17px 48px;
+  font-size: 1.25rem;
+  color: #FCFCFF;
+}
+main .content .form .email input::placeholder {
+  color: #D5D5D6;
+}
+main .content .form .button {
+  margin-left: 1rem;
+}
+main .content .form .button button {
+  display: inline-block;
+  padding: 17px 40px;
+  background: #FF3366;
+  border-radius: 7px;
+  color: #FCFCFF;
+  border: 1px solid #FF3366;
+  transition: 0.3s;
+  padding: 18px 20px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #FF3366;
+}
+main .content .form .button button:hover {
+  background: #FCFCFF;
+  color: #FF3366;
+}
+main .ilustration img {
+  width: 600px;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 57px 0px;
+  font-weight: 300;
+}
+footer p {
+  margin: 10px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
