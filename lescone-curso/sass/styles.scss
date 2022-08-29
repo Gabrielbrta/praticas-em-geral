@@ -1,0 +1,16 @@
+// @import 'reset'; 
+@import 'reset';
+@import 'variables_and_mixins';
+@import 'grid'; 
+@import 'geral';
+
+//partes
+@import 'intro';
+@import 'menu';
+@import 'contato';
+@import 'footer';
+
+div {
+  font-family: $aref;
+  font-family: $pt-mono;
+}
