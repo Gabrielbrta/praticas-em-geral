@@ -8,5 +8,5 @@
 <img src="./img/leScone.jpg"><br>
 <img src="./img/home.jpg"><br>
 <img src="./img/login.jpg"><br>
-
+<img src="./img/jogoDaVelha.png"><br>
 
